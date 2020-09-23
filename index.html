@@ -3,7 +3,7 @@
 <head>
   <style>
   body {background-color: lightblue}
-  h1   {color: blue; text-align: center}
+  h1   {color: blue;}
   h2   {color: darkblue; text-align: center;}
   p    {color: black}
 
@@ -12,10 +12,49 @@
   }
   </style>
 
-<body>
-<div class="a">
-<h1>Paul Bryant-Smith </h1>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  * {
+    box-sizing: border-box;
+  }
 
+  .column {
+    float: left;
+    padding: 10px;
+    height: 200px;
+  }
+  
+  .left {
+    width: 40%;
+  }
+  
+  .right {
+    width: 59%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="row">
+    <div class="column left" style="background-color:#99ccff;">
+      <h1>Paul Bryant-Smith
+      ePortfolio<br><br><br> </h1>
+    </div>
+    <div class="column right" style="background-color:#66b3ff;">
+      <p>#s3871668<br>
+      e: s3871668@student.rmit.edu.au<br>
+      w: https:/paulbryantsmith.github.io/ePortfolio/<br>
+      m:0438 006 716      
+</p>
+    </div>
+
+
+<div class="a">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,6 +93,7 @@ I already have experience in some areas of all the above-mentioned skills. I wou
 
 The way I will Endeavor to expand on my current knowledge and skill level is to firstly complete this IT course. I will continue to follow up my skills by continuing my education down this path.
 </p>
+<hr>
 <p>
   <h2>Personality Profile</h2>
   <h3>MYERS BRIGGS TYPE INDICATOR</h3>
@@ -64,9 +104,142 @@ The way I will Endeavor to expand on my current knowledge and skill level is to 
   <div class="a">
   <img src="MB.jpg" alt="Myers Briggs"; width="300"; text-align= center;>
 </div>
+
+<h3>Learning Style</h3>
+<p>
+  I scored the highest in the Pragmatist Style of learning. This is very acurate according to my partner...
+</p>
+
+
+
+<div class="a">
+  <img src="LearningStyles.JPG" alt="LEarning Styles" width="300" text-align= center;>
+</div>
+
+<div class="a">
+  
+<img src="LearningStyles" alt="">
+
+</div>
+
+<h3>Leadership Style Assesment</h3>
+<p>
+  My leadership style has previously been described as Laissez faire.
+</p>
+<div class="a">
+  <img src="leadership.JPG" alt="Leadership is not Friendship"; width="300";>
+</div>
+</p>
+<hr>
+<h2>Project Idea</h2>
+<h3>Rasbery Pi - Boat Minder</h3>
+<h4>Overview</h4>
+<p>
+  One of the most stressing things about owning a boat is not knowing what state it is in especially if it is normally left on a swing mooring or on anchor. Even if your’ boat is secure in a marina pen there still is little observation and monitoring, if any, done by marina staff.
+</p>
+<p>
+  Boat minders are already available on the market but come at an exuberant cost. They are simple GSM/Wi-Fi devices that do a variety of monitoring and reporting tasks including but not limited to.
+</p>
+<p>
+  -	Location monitoring<br>
+-	Flood/Leak detection <br>
+-	Battery monitoring <br>
+-	Battery Charging <br>
+-	Appliance switching controls
+</p>
+<p>
+  My project will bundle all the functions above into a cheaper customisable Raspberry Pi Boat Monitor DIY project.
+</p>
+
+<h4>Motivation</h4>
+<p>
+  Sydney Harbour is home to about 17,000 recreational boat users, amounting to 8 per cent of registered vessels across the state. [1]
+</p>
+<p>
+  There are 4,850 private moorings in the harbour and demand has increased at a rate of about 3 per cent a year.
+</p>
+<p>
+  I have personally experienced my boat having a small but constant leak three times which had resulted in the main cabin flooding and carpet been ruined. This was all from a single valve in the head system malfunctioning. Something that is hard to pinpoint due to how slow the leak was and the fact that when it was leaking, it was leaking into another tank before overflowing and flooding the boat.
+</p>
+<p>
+  If I had a boat minder with flood detection, I could have prevented this problem from ever happening at the first signs of a leak. That is only one of the many problems that can happen on a boat without any monitoring or constant surveillance.
+</p>
+<h4>Description</h4>
+<p>
+  The boat monitor will use a pre-packaged easy to install Raspberry Pi home base with optional 3G/4G sim card capability for cellular data transfer or a cheaper Wi-Fi only model will be available for those lucky enough to already have a data connection active on their boats. This added flexibility to connect to a pre-existing data satellite network virtually increases the range of monitoring to a global scale.
+</p>
+<p>
+  The monitor will be easy to use with a user-friendly smart phone app with all alarms and accessories connected in the one secure location. No need for subscription fees as it will operate over commercially available data sim cards or pre-existing data networks. If your boat is in a marina with Wi-Fi available this would be a simple solution.
+</p>
+<p>
+  The home base will most likely run a google home base network hub enabling the accessories to be any commercially of the shelf google home compatible devices.
+</p>
+<p>
+  Wireless flood sensors can be easily set up in either low points for example bilge low and high level points and this could be accompanied with a simple 12v Wi-Fi relay to operate the bilge pumps either automatically on detection of a flood or on command from the easy to use interface.
+</p>
+<p>
+  Contact sensors could be installed on doors and hatches to alert the owner of unauthorized entry into the boat. This could automatically trigger a siren or a push to talk system through a google enabled speaker.
+</p>
+<p>
+  GPS tracking is a big advantage when it comes to peace of mind regarding boat ownership. With a simple GPS external antenna, it is simple to set up a GPS fence perimeter to monitor for anchor drag or catastrophic mooring break away. This could be linked to an automatic or remotely triggered anchor let go system saving thousands of dollars of potential damage preventing your boat to be washed on the rocks or swept out to sea.
+</p>
+<p>
+  Temperature monitoring of both the engine bay and battery compartment will give a clear indicator of potential fire starters and give early indicators of perhaps a failed battery causing overheating. Most boat fires are preventable and if monitored could be connected to an automatic suppression system in conjunction with an emergency services call out on detection of fire.
+</p>
+<p>
+  Battery monitoring could be accomplished with a simple wireless battery tender and can perform vital functions such as voltage and current monitoring during use and charge. A single corrupt cell can cause irreversible damage to an entire bank of batteries if not detected early and rectified and in worst case scenarios even cause fires to start during charging
+</p>
+<p>
+  Appliance switching can easily be achieved either wirelessly or with a simple google enabled 12v relay switching mechanism. For example connecting it simply to your fridge and outdoor light would give you the pleasure of returning to your boat at night with the light coming on with a simple voice command and a cold beer waiting for you onboard.
+</p>
+<p>
+  Never worry if you forgot to kill the battery isolator for the engine again with the convenience of been able to check from anywhere in the world.
+</p>
+
+<h4>Tools and Technology</h4>
+<p>
+  <p>
+    The following accessories will be used to accomplish most of the many capabilities listed above,
+</p>
+Raspberry Pi model 4 with 4 GB of RAM with a preloaded with OS
+<br> Power Supply, Most likely 12V to 5V DC
+<br> USB Microphone
+<br> Speaker
+<br> 4G / 3G / GNSS HAT Module for Raspberry Pi
+<br> Accessories,
+<br> -	Wi-Fi Battery tender for battery indication and status
+<br> -	Wireless temperature sensors
+<br> -	Wireless contact sensors
+<br> -	Wi-Fi multi-channel 12V relay board for controlling any 12V CCT already installed on the vessel including fridges and anchor winches.
+<br> -	Flood/leak detection monitors
+<br> -	USB GPS receiver for anchor slips or mooring debacles also useful for tracking in case of theft of fleet management.
+</p>
+
+<h4>Skills Required</h4>
+<p>
+  The skills required would be at a minimum some programming and experience with Raspberry Pi’s and setting to work smart Wi-fi hardware. To set up the Raspberry Pi some Python coding may be required and is desirable. Setting up the Raspberry Pi as a google home device is straight forward and does not require a great amount of knowledge as there are various tutorials online regarding this matter.
+</p>
+<p>
+  The peripherals I have used so far have been straight forward and all come with quick setup guides. The biggest thing to accomplish is rolling all the peripherals and hub into an easy to use interface. This will require some App development skills as well as web design. 
+</p>
+
+<h4>Outcome</h4>
+<p>
+  The end game for this project would be to have a simple DIY all in one packaged boat minder that is easy to install and simple to use. The finished product should come with all instructions required with minimal configuration required by the end user.
+</p>
+
+<h4>References</h4>
+<p>
+  [1] Abc.net.au. 2020. Sydney Harbour Boat Moorings Impacting Sea Floor Life: Researchers. [online] Available at: <https://www.abc.net.au/news/2015-03-22/sydney-harbour-boat-moorings-impacting-sea-floor-life/6331102#:~:text=Sydney%20Harbour%20is%20home%20to,3%20per%20cent%20a%20year.> [Accessed 21 September 2020].
+</p>
+
+<hr>
+
   </style>
     
   </style>
 </body>
 </head>
 </html>
+
+ 
